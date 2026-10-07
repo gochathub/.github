@@ -1,7 +1,7 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/gochathub-wordmark-dark.png">
-    <img src="profile/gochathub-wordmark.png" alt="goChatHub" height="128">
+    <source media="(prefers-color-scheme: dark)" srcset="gochathub-wordmark-dark.png">
+    <img src="gochathub-wordmark.png" alt="goChatHub" height="128">
   </picture>
 
   **[Self-hosted chat. Your server, your data, your users.](https://gochathub.com)**
