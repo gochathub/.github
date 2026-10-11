@@ -29,7 +29,7 @@ pull request as the client change.
 | `gochathub-server` | `go test ./... -p 1` (needs `TEST_DATABASE_URL`), `python3 scripts/contract-check.py` |
 | `gochathub-webui` | `bun run typecheck`, `bun run lint`, `bun test tests/` |
 | `gochathub-android-client` | `./gradlew assembleDebug`, `./gradlew checkContract`, `./gradlew :chatuikit-core:testDebugUnitTest` |
-| `gochatinstaller` | shell-check `install.sh` and describe how you tested the install |
+| `gochathub-installer` | shell-check `install.sh` and describe how you tested the install |
 | `gochathub-rocketchat-migrate` | documentation and backup tooling only; the importer lives in `gochathub-server` (`rcmigrate`) |
 
 ## Conduct and license
