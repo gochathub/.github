@@ -21,5 +21,7 @@ Maintainers may edit or remove comments, issues and pull requests that break
 these rules, and may block repeat offenders from the organization's
 repositories.
 
-To report a problem, use GitHub's **Report content** option on the comment, or
-message a maintainer on GitHub. Reports are handled privately.
+To report a problem, email info@gochathub.com, use GitHub's **Report content**
+option on the comment, or message a maintainer on GitHub. Reports are handled
+privately. Security vulnerabilities go through the [security policy](SECURITY.md)
+instead.
