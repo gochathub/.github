@@ -1,0 +1,50 @@
+name: Bug report
+description: Something is broken or behaves unexpectedly
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Security problem? Do not file it here. See the security policy linked in the issue chooser.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Server (gochathub-server)
+        - Web client (gochathub-webui)
+        - Android client
+        - Installer
+        - Rocket.Chat migration / link
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Server/client version, image tag, or commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you expected and what you saw instead
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Redact tokens, passwords, hostnames and personal data before pasting.
+      render: shell

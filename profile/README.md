@@ -25,5 +25,6 @@ goChatHub is a self-hosted chat platform. The backend — `gochathub-server` —
 | [`gochathub-webui`](https://github.com/gochathub/gochathub-webui) | Web client — Vue 3 + Pinia + Tailwind 4 fork of Avian-Template |
 | [`gochathub-android-client`](https://github.com/gochathub/gochathub-android-client) | Android client — CometChat UI Kit, UnifiedPush notifications |
 | [`gochatinstaller`](https://github.com/gochathub/gochatinstaller) | One command boots the full stack as Docker Compose (Caddy, server, webui, Postgres, MinIO) |
+| [`gochathub-rocketchat-migrate`](https://github.com/gochathub/gochathub-rocketchat-migrate) | Optional: backup tooling and notes for moving off an existing Rocket.Chat server |
 
 [gochathub.com](https://gochathub.com) — project website.
