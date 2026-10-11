@@ -27,4 +27,4 @@ goChatHub is a self-hosted chat platform. The backend — `gochathub-server` —
 | [`gochathub-installer`](https://github.com/gochathub/gochathub-installer) | One command boots the full stack as Docker Compose (Caddy, server, webui, Postgres, MinIO) |
 | [`gochathub-rocketchat-migrate`](https://github.com/gochathub/gochathub-rocketchat-migrate) | Optional: backup tooling and notes for moving off an existing Rocket.Chat server |
 
-[gochathub.com](https://gochathub.com) — project website.
+[gochathub.com](https://gochathub.com) — project website. Paid installation, Rocket.Chat migration and maintenance: [gochathub.com/support](https://gochathub.com/support/).
